@@ -19,7 +19,7 @@ development:
   encoding: unicode
   database: messing_with_spree_development
   pool: 5
-  username: messing_with_spree
+  username:
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -48,7 +48,7 @@ test:
   encoding: unicode
   database: messing_with_spree_test
   pool: 5
-  username: messing_with_spree
+  username:
   password:
 
 production:
@@ -56,5 +56,5 @@ production:
   encoding: unicode
   database: messing_with_spree_production
   pool: 5
-  username: messing_with_spree
+  username:
   password:
